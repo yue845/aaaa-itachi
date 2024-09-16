@@ -1,2 +1,3 @@
-alert ("você clicou no botão")
-document.querySelector ("button")
+alert ("você clicou no botão");
+document.querySelector ("button");
+
