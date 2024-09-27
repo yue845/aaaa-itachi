@@ -14,8 +14,14 @@ function areaQuadrado(lado){
 }
 console.log(areaQuadrado(6));
 
+let notas=parseInt(prompt('insira o valor 1'));
+let notas2=parseInt(prompt('insira o valor 2'));
+let notas3=parseInt(prompt('insira o valor 3'));
+
 let media = function(numero1, numero2, numero3) {
     return (numero1 + numero2 + numero3) / 3;
 }
 
 console.log(media(1,2,3));
+console.log(media(notas,notas2,notas3));
+document.write(notas);
